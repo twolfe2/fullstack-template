@@ -5,6 +5,6 @@
 var app = angular.module('myApp');
 
 
-app.controller('test', function() {
+app.controller('mainCtrl', function() {
   console.log('hello!');
 });
