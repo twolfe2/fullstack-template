@@ -8,7 +8,7 @@ const express = require('express');
 let router = express.Router();
 
 
-router.use('/crud', require('./cruds'))
+router.use('/cruds', require('./cruds'))
 
 
 

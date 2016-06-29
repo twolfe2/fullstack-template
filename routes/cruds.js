@@ -12,7 +12,7 @@ let Crud = require('../models/crud');
 
 
 
-module.exports = router;
+
 
 
 
@@ -58,3 +58,4 @@ router.route('/')
         res.send(crud);
       });
     });
+module.exports = router;
