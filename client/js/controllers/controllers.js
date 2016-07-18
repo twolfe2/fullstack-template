@@ -43,7 +43,7 @@ app.controller('loginCtrl', function($scope, $state, $auth, $rootScope) {
         console.log('res', res);
         // console.log($auth.getPayload());
 
-        $state.go('stockSearch');
+        $state.go('home');
       })
       .catch(err => {
         console.log('err', err);
