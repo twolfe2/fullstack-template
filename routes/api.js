@@ -8,7 +8,9 @@ const express = require('express');
 let router = express.Router();
 
 
-router.use('/cruds', require('./cruds'))
+
+router.use('/users', require('./users'));
+router.use('/tokens', require('./tokens'));
 
 
 
