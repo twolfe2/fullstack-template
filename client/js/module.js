@@ -1,7 +1,7 @@
 'use strict';
 
 
-var app = angular.module('myApp', ['ui.router', 'ui.router', 'satellizer']);
+var app = angular.module('myApp', ['ui.router', 'ui.router', 'satellizer', 'ui.bootstrap']);
 
 app.config(function($authProvider) {
   $authProvider.loginUrl = '/api/users/login';
